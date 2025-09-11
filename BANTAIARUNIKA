@@ -102,7 +102,7 @@ UIList.SortOrder = Enum.SortOrder.LayoutOrder
 
 -- Track buttons
 local orderedTrackNames = {
-    "BC - 1", "CP 1 - CP 2", "CP 2 - CP 3", "CP 3 - CP 4", "CP 4 - CP 5", "CP 5 - SUMMIT"
+    "0-1", "CP 1 - CP 2", "CP 2 - CP 3", "CP 3 - CP 4", "CP 4 - CP 5", "CP 5 - SUMMIT"
 }
 
 for _, name in ipairs(orderedTrackNames) do
