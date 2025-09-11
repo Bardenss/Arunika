@@ -9,12 +9,12 @@ local player = game.Players.LocalPlayer
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["0-1"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/CP%201.json",
-    ["CP 1 - CP 2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FyyExploit/refs/heads/main/CP_2_HAHA.json", 
-    ["CP 2 - CP 3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FyyExploit/refs/heads/main/CP_3_HAHA.json",
-    ["CP 3 - CP 4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FyyExploit/refs/heads/main/CP_4_HAHA.json",
-    ["CP 4 - CP 5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FyyExploit/refs/heads/main/CP_5_HAHA.json",
-    ["CP 5 - SUMMIT"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FyyExploit/refs/heads/main/SUMMIT_YAHAHAHAHAHAHAHAHA.json",
+    ["0-1"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/01.json",
+    ["1-2"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/12.json", 
+    ["2-3"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/23.json",
+    ["3-4"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/34.json",
+    ["4-5"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/45.json",
+    ["5-SUMMIT"] = "https://raw.githubusercontent.com/Bardenss/Arunika/refs/heads/main/5summit.json",
 }
 
 local savedTracks = {}
@@ -102,7 +102,7 @@ UIList.SortOrder = Enum.SortOrder.LayoutOrder
 
 -- Track buttons
 local orderedTrackNames = {
-    "0-1", "CP 1 - CP 2", "CP 2 - CP 3", "CP 3 - CP 4", "CP 4 - CP 5", "CP 5 - SUMMIT"
+    "0-1", "1-2", "2-3", "3-4", "4-5", "5-SUMMIT"
 }
 
 for _, name in ipairs(orderedTrackNames) do
